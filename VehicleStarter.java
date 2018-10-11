@@ -23,7 +23,13 @@ public class VehicleStarter {
 		// Vehicle sample distance
             v.addFuel(new Random().nextDouble()*10, 1.3);
 
-            v.printDetails();                
+            v.printDetails();
+            Journey j = new Journey();
+            System.out.println("Journey: " + j.getKilometers());
+            Service s = new Service();
+            System.out.println("Service count: " + s.getServiceCount());
+            System.out.println("Total scheduled services: " + s.getTotalScheduledServices());
+            System.out.println("Last service odometer km: " + s.getLastServiceOdometerKm());
             System.out.println("\n\n");
     }
     
