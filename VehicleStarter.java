@@ -10,7 +10,7 @@ import java.util.Random;
 /**
  * Starter code for Vehicle application. 
  * This class displays sample output to the console.
- * @author AUTHORNAME
+ * @author J187384
  */
 public class VehicleStarter {
 
@@ -18,7 +18,7 @@ public class VehicleStarter {
      * @param args the command line arguments
      */
     public static void main(String[] args) {        
-        Vehicle v = new Vehicle("Ford", "T812", 2014);
+        Vehicle v = new Vehicle("Ford", "T812", 2014, 4321, 0, 60);
 		
 		// Vehicle sample distance
             v.addFuel(new Random().nextDouble()*10, 1.3);
