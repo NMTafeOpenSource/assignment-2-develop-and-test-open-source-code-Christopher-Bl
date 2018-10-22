@@ -30,7 +30,7 @@ public class Vehicle {
 		this.tankCapacity = tankCapacity;
 		fuelPurchase = new FuelPurchase();
 	}
-
+        
         // getters and setters
         
         public String getManufacturer(){
